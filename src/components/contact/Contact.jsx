@@ -17,7 +17,7 @@ const Contact = () => {
             <input className={` p-3 my-4 rounded ${style.input}`}type="email" placeholder='userEmail' />
             <input className={` p-3 my-4 rounded ${style.input}`}type="password" placeholder='userPassword' />
              <div  className={` px-0 ${style.input}`} >
-   <button className='btn '>Send Message</button>
+   <button className={`${style.btn}`}>Send Message</button>
             </div>
         </form>
 

@@ -22,9 +22,12 @@ background-color: #ffffff;
 }
 .input{
   width: 65%;
-} .btn{
+} 
+.btn{
 background-color: #1ABC9C;
 color: #ffffff;
+padding: 10px;
+border-radius: 10px;
 }
 ::placeholder{
   color: rgb(81, 81, 81);
