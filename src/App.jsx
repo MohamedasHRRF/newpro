@@ -3,7 +3,7 @@ import About from "./components/about/About"
 import Contact from "./components/contact/Contact";
 import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
-import Layout from "./components/layout/Layout";
+import Layout from "./components/Layout/Layout";
 
 function App () {
 
