@@ -1,0 +1,17 @@
+.wrapper {
+    height: 100vh;
+    background-color: #1ABC9C;
+}
+.home {
+background-color: bisque;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 250px;
+  color: #fff;
+}
+
+.container-fluid{
+    position: relative;
+}

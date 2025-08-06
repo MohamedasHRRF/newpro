@@ -1,8 +1,4 @@
 
-body{
-  height: 100vh;
-  box-sizing: border-box;
-}
 .pad {
   padding-top: 100px;
 }
@@ -11,6 +7,7 @@ body{
   background-color:#2C3E50;
   position: fixed;
   width: 100%;
+  z-index: 30;
  }
 .mynav .nav-Navlink {
   text-decoration: none;
@@ -19,11 +16,6 @@ body{
   padding: 3px;
   margin: 6px;
   
-}
-.mynav.scrolled {
-  background-color: rgba(255, 255, 255, 0.988);
-  box-shadow: 0 5px 10px rgba(110, 109, 109, 0.153);
-  transition: background-color 0.3s ease, color 0.3s ease;
 }
 .active {
   background-color: rgb(91, 182, 152);
@@ -50,13 +42,11 @@ input:focus {
   height: 5px;
   background-color: #2C3E50;
   display: flex;
- 
   justify-content: center;
   align-items: center;
 }
 .line i{
   border-radius: 50%;
-  /* outline: rgb(170, 0, 0) solid 5px; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -71,29 +61,8 @@ form .btn{
 background-color: #1ABC9C;
 color: #ffffff;
 }
-.about , .home {
-  padding: 50px;
-  background-color:#1ABC9C;
-  height: 99vh;
-  display: flex;
- flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.about .header {
-  width: 100%;
-}
-.about .par {
-  display: flex;
-  color: #fff;
-  width: 80%;
-  justify-content: space-between;
 
-}
-.about .par p{
-  width: 50%;
- margin: 5px;
-}
+
 .port .layer {
   background-color: #2FAD95;
   display: flex;
