@@ -1,7 +1,7 @@
 import { createHashRouter, RouterProvider } from "react-router-dom"
 import About from "./components/about/About"
 import Contact from "./components/contact/Contact";
-import Home from "./components/home/home";
+import Home from "./components/Home/Home";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Layout from "./components/layout/Layout";
 
