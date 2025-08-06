@@ -1,6 +1,7 @@
 
 .pad {
   padding-top: 100px;
+  padding-bottom: 50px;
 }
 
  .mynav {
@@ -54,13 +55,13 @@ input:focus {
   height:60px;
 background-color: #ffffff;
 }
-form .input{
+/* form .input{
   width: 65%;
 }
 form .btn{
 background-color: #1ABC9C;
 color: #ffffff;
-}
+} */
 
 
 .port .layer {

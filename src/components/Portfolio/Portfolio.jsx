@@ -4,7 +4,7 @@ import dragons from"../../assets/dragons.jpg"
 const Portfolio = () => {
   return (
     <>
-  <Navbar />
+ 
     <div className="container port pad">
    <div className='mb-5'>
        <h1 className="pt-5 mb-4 text-center fw-bolder">PORTFOLIO COMPONENT</h1>

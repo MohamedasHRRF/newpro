@@ -4,7 +4,7 @@ import style from  "./contact.module.css"
 const Contact = () => {
   return (
     <>
-    <Navbar />
+    
     <div className={`container ${style.pad} `}>
 
       <h1 className="pt-5 mb-4 text-center fw-bolder">CONTACT SECTION</h1>
